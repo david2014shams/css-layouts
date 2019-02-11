@@ -5,7 +5,9 @@
     display: -ms-inline-grid;
 }
 body {
-    font-family: 'Felipa'
+    font-family: 'Felipa';
+    display: grid;
+    grid-template-rows: 100px 30%;
 }
 ul { 
     list-style-type: none;
@@ -22,7 +24,9 @@ header {
     color: white;
     display: grid;
     grid-template-columns: fit-content(20%) auto;
-    /* grid-template-columns: repeat(2, auto); */
+    grid-template-columns: repeat(2, auto);
+    /* grid-template-columns: [logo-start] fit-content(20%) [nav-start] auto [nav-end]; */
+
 }
 header > a, li > a {
     color: white;
@@ -35,6 +39,7 @@ header > a, li > a {
     background-color: lightyellow;
     display: inline-block;
     color: blue;
-    grid-column-start: 3;
-    grid-template-columns: [logo-start] fit-content(20%) [nav-start] auto [nav-end];
+    /* grid-column-start: 3; */
+    grid-column-start: logo-start;
+    grid-column-end: span nav-end;
 }
