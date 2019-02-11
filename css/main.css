@@ -21,8 +21,9 @@ header {
     /* grid-template-columns: 20% auto; */
     grid-template-columns: repeat(2, auto);
 }
-a {
+header > a, li > a {
     color: white;
+    text-decoration: none;
 }
 #logo {
     display: inline-block;
