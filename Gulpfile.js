@@ -8,4 +8,9 @@ gulp.task('browser-sync', function() {
         }
     });
     gulp.watch(["./*.html", "./css/*.css"]).on('change', browserSync.reload)
-})
+});
+
+// gulp.task('default', ['browser-sync'], function() {
+//     console.log('Gulp running with browser-sync');
+//     gulp.lastRun('browser-sync');
+// })
