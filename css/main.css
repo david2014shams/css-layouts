@@ -12,7 +12,8 @@ header {
     background-color: blue;
     color: white;
     display: grid;
-    grid-template-columns: 20% 80%;
+    /* grid-template-columns: 20% auto; */
+    grid-template-columns: repeat(2, auto);
 }
 a {
     color: white;
