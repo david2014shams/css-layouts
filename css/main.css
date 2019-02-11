@@ -7,3 +7,13 @@
 body {
     font-family: 'Felipa'
 }
+ul { list-style-type: none;}
+header {
+    background-color: blue;
+    color: white;
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+a {
+    color: white;
+}
