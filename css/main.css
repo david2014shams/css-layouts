@@ -43,3 +43,13 @@ header > a, li > a {
     grid-column-start: logo-start;
     grid-column-end: span nav-end;
 }
+section#split-two {
+    display: grid;
+    border: solid 1px gray;
+    padding: 10px;
+    grid-template-columns: repeat(2, auto);
+}
+img {
+    border-radius: 50%;
+}
+      
