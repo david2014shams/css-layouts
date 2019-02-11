@@ -35,4 +35,5 @@ header > a, li > a {
     background-color: lightyellow;
     display: inline-block;
     color: blue;
+    grid-column-start: 3;
 }
