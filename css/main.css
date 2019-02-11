@@ -36,4 +36,5 @@ header > a, li > a {
     display: inline-block;
     color: blue;
     grid-column-start: 3;
+    grid-template-columns: [logo-start] fit-content(20%) [nav-start] auto [nav-end];
 }
